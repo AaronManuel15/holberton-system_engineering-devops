@@ -1,2 +1,2 @@
 #!/bin/bash
-echo {a..o}{a..n} {a..o}{p..z} {p..z}{o..z}|tr " " "\n"|sort
+echo {a..o}{{a..n},{p..z}} {p..z}{{o..z},{a..n}}|tr " " |sort
