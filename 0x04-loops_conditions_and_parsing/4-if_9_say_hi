@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+# script that displays Best School but changes the 9th iteration and adds Hi after it. 
+x=0
+while [ $x -le 9 ]
+do
+	echo "Best School"
+	if [ $x == 8 ]
+	then
+		printf "%s\n" "Hi"
+	fi
+	((x++))
+done
