@@ -1,2 +1,7 @@
 #!/usr/bin/env bash
-
+# bash script to display content of current directory in a list format with only what's after -
+list=$(ls)
+for OUTPUT in $list
+do
+	echo "$OUTPUT" | cut -d - -f "2"
+done
