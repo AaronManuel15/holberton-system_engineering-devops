@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#script to stop task 4 the better way
+pkill -f 7-highlander
